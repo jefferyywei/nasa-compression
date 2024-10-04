@@ -1,0 +1,38 @@
+{
+    "lon": {
+        "original": 9216,
+        "compressed": 1462
+    },
+    "lat": {
+        "original": 5768,
+        "compressed": 724
+    },
+    "time": {
+        "original": 4,
+        "compressed": 13
+    },
+    "HLML": {
+        "original": 3322368,
+        "compressed": 2569434
+    },
+    "PS": {
+        "original": 3322368,
+        "compressed": 2548793
+    },
+    "QLML": {
+        "original": 3322368,
+        "compressed": 2879632
+    },
+    "SPEEDLML": {
+        "original": 3322368,
+        "compressed": 2935545
+    },
+    "TLML": {
+        "original": 3322368,
+        "compressed": 2542380
+    },
+    "TAITIME": {
+        "original": 8,
+        "compressed": 17
+    }
+}
