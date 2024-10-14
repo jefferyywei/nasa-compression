@@ -1,38 +1,65 @@
 {
     "lon": {
-        "original": 9216,
-        "compressed": 1462
+        "original": 76,
+        "zstd": 1462,
+        "zlib": 1898,
+        "gzip": 1910,
+        "blosc": 1577
     },
     "lat": {
-        "original": 5768,
-        "compressed": 724
+        "original": 76,
+        "zstd": 724,
+        "zlib": 977,
+        "gzip": 989,
+        "blosc": 728
     },
     "time": {
-        "original": 4,
-        "compressed": 13
+        "original": 77,
+        "zstd": 13,
+        "zlib": 12,
+        "gzip": 24,
+        "blosc": 20
     },
     "HLML": {
-        "original": 3322368,
-        "compressed": 2569434
+        "original": 77,
+        "zstd": 2569434,
+        "zlib": 2531139,
+        "gzip": 2531151,
+        "blosc": 3306921
     },
     "PS": {
-        "original": 3322368,
-        "compressed": 2548793
+        "original": 75,
+        "zstd": 2548793,
+        "zlib": 2507585,
+        "gzip": 2507597,
+        "blosc": 3223486
     },
     "QLML": {
-        "original": 3322368,
-        "compressed": 2879632
+        "original": 77,
+        "zstd": 2879632,
+        "zlib": 2883130,
+        "gzip": 2883142,
+        "blosc": 3322384
     },
     "SPEEDLML": {
-        "original": 3322368,
-        "compressed": 2935545
+        "original": 81,
+        "zstd": 2935545,
+        "zlib": 2940626,
+        "gzip": 2940638,
+        "blosc": 3322384
     },
     "TLML": {
-        "original": 3322368,
-        "compressed": 2542380
+        "original": 77,
+        "zstd": 2542380,
+        "zlib": 2503604,
+        "gzip": 2503616,
+        "blosc": 3310092
     },
     "TAITIME": {
-        "original": 8,
-        "compressed": 17
+        "original": 80,
+        "zstd": 17,
+        "zlib": 16,
+        "gzip": 28,
+        "blosc": 24
     }
 }
