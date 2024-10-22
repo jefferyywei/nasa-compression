@@ -1,65 +1,137 @@
 {
     "lon": {
-        "original": 76,
+        "original": 9216,
         "zstd": 1462,
+        "zstd_shuffled": 1134,
+        "zstd_rounded": 2170,
         "zlib": 1898,
+        "zlib_shuffled": 1231,
+        "zlib_rounded": 2568,
         "gzip": 1910,
-        "blosc": 1577
+        "gzip_shuffled": 1243,
+        "gzip_rounded": 2580,
+        "blosc": 1577,
+        "blosc_shuffled": 1166,
+        "blosc_rounded": 2289
     },
     "lat": {
-        "original": 76,
+        "original": 5768,
         "zstd": 724,
+        "zstd_shuffled": 500,
+        "zstd_rounded": 1031,
         "zlib": 977,
+        "zlib_shuffled": 471,
+        "zlib_rounded": 1233,
         "gzip": 989,
-        "blosc": 728
+        "gzip_shuffled": 483,
+        "gzip_rounded": 1245,
+        "blosc": 728,
+        "blosc_shuffled": 630,
+        "blosc_rounded": 852
     },
     "time": {
-        "original": 77,
+        "original": 4,
         "zstd": 13,
+        "zstd_shuffled": 13,
+        "zstd_rounded": 17,
         "zlib": 12,
+        "zlib_shuffled": 12,
+        "zlib_rounded": 11,
         "gzip": 24,
-        "blosc": 20
+        "gzip_shuffled": 24,
+        "gzip_rounded": 23,
+        "blosc": 20,
+        "blosc_shuffled": 20,
+        "blosc_rounded": 24
     },
     "HLML": {
-        "original": 77,
+        "original": 3322368,
         "zstd": 2569434,
+        "zstd_shuffled": 1806060,
+        "zstd_rounded": 453651,
         "zlib": 2531139,
+        "zlib_shuffled": 1774090,
+        "zlib_rounded": 331796,
         "gzip": 2531151,
-        "blosc": 3306921
+        "gzip_shuffled": 1774102,
+        "gzip_rounded": 331808,
+        "blosc": 3306921,
+        "blosc_shuffled": 2069935,
+        "blosc_rounded": 1904052
     },
     "PS": {
-        "original": 75,
+        "original": 3322368,
         "zstd": 2548793,
+        "zstd_shuffled": 1780720,
+        "zstd_rounded": 2145707,
         "zlib": 2507585,
+        "zlib_shuffled": 1730885,
+        "zlib_rounded": 2146089,
         "gzip": 2507597,
-        "blosc": 3223486
+        "gzip_shuffled": 1730897,
+        "gzip_rounded": 2146101,
+        "blosc": 3223486,
+        "blosc_shuffled": 1933905,
+        "blosc_rounded": 3212824
     },
     "QLML": {
-        "original": 77,
+        "original": 3322368,
         "zstd": 2879632,
+        "zstd_shuffled": 2371328,
+        "zstd_rounded": 123,
         "zlib": 2883130,
+        "zlib_shuffled": 2302495,
+        "zlib_rounded": 3242,
         "gzip": 2883142,
-        "blosc": 3322384
+        "gzip_shuffled": 2302507,
+        "gzip_rounded": 3254,
+        "blosc": 3322384,
+        "blosc_shuffled": 2444111,
+        "blosc_rounded": 13292
     },
     "SPEEDLML": {
-        "original": 81,
+        "original": 3322368,
         "zstd": 2935545,
+        "zstd_shuffled": 2514302,
+        "zstd_rounded": 856486,
         "zlib": 2940626,
+        "zlib_shuffled": 2467447,
+        "zlib_rounded": 825694,
         "gzip": 2940638,
-        "blosc": 3322384
+        "gzip_shuffled": 2467459,
+        "gzip_rounded": 825706,
+        "blosc": 3322384,
+        "blosc_shuffled": 2732086,
+        "blosc_rounded": 2899986
     },
     "TLML": {
-        "original": 77,
+        "original": 3322368,
         "zstd": 2542380,
+        "zstd_shuffled": 1788993,
+        "zstd_rounded": 807919,
         "zlib": 2503604,
+        "zlib_shuffled": 1759201,
+        "zlib_rounded": 699444,
         "gzip": 2503616,
-        "blosc": 3310092
+        "gzip_shuffled": 1759213,
+        "gzip_rounded": 699456,
+        "blosc": 3310092,
+        "blosc_shuffled": 2044371,
+        "blosc_rounded": 2675394
     },
     "TAITIME": {
-        "original": 80,
+        "original": 8,
         "zstd": 17,
+        "zstd_shuffled": 17,
+        "zstd_rounded": 17,
         "zlib": 16,
+        "zlib_shuffled": 16,
+        "zlib_rounded": 16,
         "gzip": 28,
-        "blosc": 24
+        "gzip_shuffled": 28,
+        "gzip_rounded": 28,
+        "blosc": 24,
+        "blosc_shuffled": 24,
+        "blosc_rounded": 24
     }
 }
