@@ -1,0 +1,62 @@
+{
+    "HLML+PS": {
+        "zstd_ratio": 1.214,
+        "zlib_ratio": 1.252,
+        "gzip_ratio": 1.252,
+        "blosc_ratio": 1.014
+    },
+    "HLML+QLML": {
+        "zstd_ratio": 1.16,
+        "zlib_ratio": 1.168,
+        "gzip_ratio": 1.168,
+        "blosc_ratio": 1.002
+    },
+    "HLML+SPEEDLML": {
+        "zstd_ratio": 1.149,
+        "zlib_ratio": 1.155,
+        "gzip_ratio": 1.155,
+        "blosc_ratio": 1.001
+    },
+    "HLML+TLML": {
+        "zstd_ratio": 1.222,
+        "zlib_ratio": 1.255,
+        "gzip_ratio": 1.255,
+        "blosc_ratio": 1.009
+    },
+    "PS+QLML": {
+        "zstd_ratio": 1.16,
+        "zlib_ratio": 1.174,
+        "gzip_ratio": 1.174,
+        "blosc_ratio": 1.003
+    },
+    "PS+SPEEDLML": {
+        "zstd_ratio": 1.15,
+        "zlib_ratio": 1.162,
+        "gzip_ratio": 1.162,
+        "blosc_ratio": 1.002
+    },
+    "PS+TLML": {
+        "zstd_ratio": 1.22,
+        "zlib_ratio": 1.259,
+        "gzip_ratio": 1.259,
+        "blosc_ratio": 1.012
+    },
+    "QLML+SPEEDLML": {
+        "zstd_ratio": 1.107,
+        "zlib_ratio": 1.105,
+        "gzip_ratio": 1.105,
+        "blosc_ratio": 1.0
+    },
+    "QLML+TLML": {
+        "zstd_ratio": 1.164,
+        "zlib_ratio": 1.173,
+        "gzip_ratio": 1.173,
+        "blosc_ratio": 1.002
+    },
+    "SPEEDLML+TLML": {
+        "zstd_ratio": 1.153,
+        "zlib_ratio": 1.16,
+        "gzip_ratio": 1.16,
+        "blosc_ratio": 1.001
+    }
+}
