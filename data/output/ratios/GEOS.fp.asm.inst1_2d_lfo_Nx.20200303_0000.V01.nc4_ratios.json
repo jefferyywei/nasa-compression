@@ -92,20 +92,20 @@
     "QLML": {
         "zstd_ratio": 1.154,
         "zstd_ratio_shuffled": 1.401,
-        "zstd_ratio_rounded": 27011.122,
-        "zstd_ratio_shuffled_rounded": 27011.122,
+        "zstd_ratio_rounded": 3.997,
+        "zstd_ratio_shuffled_rounded": 1.896,
         "zlib_ratio": 1.152,
         "zlib_ratio_shuffled": 1.443,
-        "zlib_ratio_rounded": 1024.79,
-        "zlib_ratio_shuffled_rounded": 1024.79,
+        "zlib_ratio_rounded": 4.557,
+        "zlib_ratio_shuffled_rounded": 2.082,
         "gzip_ratio": 1.152,
         "gzip_ratio_shuffled": 1.443,
-        "gzip_ratio_rounded": 1021.01,
-        "gzip_ratio_shuffled_rounded": 1021.01,
+        "gzip_ratio_rounded": 4.557,
+        "gzip_ratio_shuffled_rounded": 2.082,
         "blosc_ratio": 1.0,
         "blosc_ratio_shuffled": 1.359,
-        "blosc_ratio_rounded": 249.952,
-        "blosc_ratio_shuffled_rounded": 249.952
+        "blosc_ratio_rounded": 1.169,
+        "blosc_ratio_shuffled_rounded": 1.5
     },
     "SPEEDLML": {
         "zstd_ratio": 1.132,
