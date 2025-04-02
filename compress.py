@@ -5,7 +5,7 @@ import zstandard as zstd
 import os
 import tempfile
 
-def xbitinfo_round_in_memory(file_path, inflevel):
+def xbitinfo_round(file_path, inflevel):
     ds = xr.open_dataset(file_path)
     coord_vars = ['TAITIME', 'time', 'lon', 'lat']
     coord_data = {var: ds[var] for var in coord_vars if var in ds}
@@ -39,7 +39,7 @@ def main():
     parser.add_argument("output_path", help="Path to write the compressed file")
     args = parser.parse_args()
 
-    rounded_data_bytes = xbitinfo_round_in_memory(args.file_path, args.compression_level)
+    rounded_data_bytes = xbitinfo_round(args.file_path, args.compression_level)
 
     cctx = zstd.ZstdCompressor(level=22)
     compressed_data = cctx.compress(rounded_data_bytes)
