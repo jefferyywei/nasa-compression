@@ -4,10 +4,13 @@ import xbitinfo as xb
 import zstandard as zstd
 import os
 import tempfile
+import netCDF4
 
 def xbitinfo_round(file_path, inflevel):
     ds = xr.open_dataset(file_path)
-    coord_vars = ['TAITIME', 'time', 'lon', 'lat']
+    coord_vars = list(ds.coords)
+    if "TAITIME" in list(ds.data_vars):
+        coord_vars.append('TAITIME')
     coord_data = {var: ds[var] for var in coord_vars if var in ds}
     ds = ds.drop_vars(coord_vars)
 
@@ -21,7 +24,7 @@ def xbitinfo_round(file_path, inflevel):
     with tempfile.NamedTemporaryFile(suffix=".nc4", delete=False) as tmp:
         temp_path = tmp.name
 
-    ds_bitrounded.to_netcdf(temp_path)
+    ds_bitrounded.to_netcdf(path=temp_path, mode='w', format="NETCDF4", engine="netcdf4")
 
     with open(temp_path, 'rb') as f:
         data_bytes = f.read()
